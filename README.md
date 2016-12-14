@@ -2,10 +2,11 @@
 
 Give a short, 1-2 paragraph description of your project. Focus on the code, not the theoretical / substantive / academic side of things.
 
+
 ##Dependencies
 - R, version 3.1
-Python, version 3.5, Anaconda distribution.
-(In your scripts, includes commands that install required packages.)
+- Python, version 3.5, Anaconda distribution
+
 
 ##Files
 
@@ -21,6 +22,7 @@ Python, version 3.5, Anaconda distribution.
 ####Results
 - coverage-over-time.jpeg: Graphs the number of articles about each region over time.
 - regression-table.txt: Summarizes the results of OLS regression, modelling nyt on a number of covariates.
+
 
 ##More Information
 Include any other details you think your user might need to reproduce your results. You may also include other information such as your contact information, credits, etc.
