@@ -1,9 +1,31 @@
 # ps239T-final-project
 
-The inspiration for this project came from witnessing the impact of advanced statistics was having on professional sports like baseball and basketball. The way to evaluate and predict an athelets impact had transformed from the legacy "vanity" statistics and the fabled "eye test" to objective measurements of their impact on the game. Statistics like Wins Above Replacement (WAR) in baseball provided a standard for milliciting how many wins a player was worth, as compared to the league average or "replacement" player. similarly, Real Plus/Minus in basketball measures the performance of a team with a player on the floor as compared to how it performed when that player was on the bench. Staring at the dearth of information that I had about the candidates on my ballot, not to mention a relative ignorance about how to effectively evaluate or benchmark an incumbent's performance, I found myself wishing that I knew more about these people I was electing beyond a brief bio, a few statements and a few endorsements. 
+#Short Description
 
-Now I'm not naiive enough to think that this would be a simple, easy or even harmless addition to the information resources available to voters. Politics, despite what many old white men in congress might say, isn't baseball, and it certainly doesn't come close to producing teh relatively controlled, reproduced and obsessively measured dataset that baseball does. And impact is really hard to measure, just ask nonprofits. And what about perverse incentives that are all too common in public policy, or the old accountant's dilemma that "whatever get's measured, matters?" Well, those are all valid criticisms that I will have to take into account as I embark on this project. Assumptions, process and reliability will have to be noted along the way, and transparency of the measures would be paramount. In order to prevent "gaming" of any algorithm or model, measurements will need to be taken from multiple angles in order to ensure that they aren't incentivising negative outcomes.
+Give a short, 1-2 paragraph description of your project. Focus on the code, not the theoretical / substantive / academic side of things.
 
-The end result of this project is unclear at this moment, it could end up creating a clearinghouse or census of the information on elected representatives that is publically available, be used to create a more comprehensive "scorecard" of useful metrics, or be rolled up into a higher-level statistic consisting of various weighted measures.
+Dependencies
 
-The project for PS239-T is a proof of concept on whether this idea might have the promise to continue working on over the course of my graduate studies.
+List what software your code depends on, as well as version numbers, like so:.
+
+R, version 3.1
+Python, version 2.7, Anaconda distribution.
+(In your scripts, includes commands that install required packages.)
+
+Files
+
+List all other files contained in the repo, along with a brief description of each one, like so:
+
+Data
+
+Code
+01_collect-nyt.py: Collects data from New York Times API and exports data to the file nyt.csv
+02_merge-data.R: Loads, cleans, and merges the raw Polity and NYT datasets into the Analysis Dataset.
+03_analysis.R: Conducts descriptive analysis of the data, producing the tables and visualizations found in the Results directory.
+Results
+
+coverage-over-time.jpeg: Graphs the number of articles about each region over time.
+regression-table.txt: Summarizes the results of OLS regression, modelling nyt on a number of covariates.
+More Information
+
+Include any other details you think your user might need to reproduce your results. You may also include other information such as your contact information, credits, etc.
